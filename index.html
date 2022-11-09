@@ -3,7 +3,7 @@
 
 
 <div class="peach">
-<img src="https://e7.pngegg.com/pngimages/299/182/png-clipart-super-princess-peach-luigi-mario-yoshi-luigi-super-mario-bros-text.png" alt="">
+<img src="https://i.pinimg.com/originals/18/69/29/186929e73d471d64d74f29225129d5c7.png" alt="">
 </div>
 
 <script>
@@ -18,6 +18,9 @@
         } else if (e.key == 'ArrowLeft') {
             positionX = positionX - 10;
             $('.peach').css('margin-left',positionX)
+        } else if (e.key =='ArrowUp'){
+            positionX = positionX - 50;
+            $('.peach').css('margin-top', positionX)
         }
     })
 </script>
