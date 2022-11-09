@@ -1,0 +1,23 @@
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<link rel="stylesheet" href="estilos.css">
+
+
+<div class="peach">
+<img src="https://e7.pngegg.com/pngimages/299/182/png-clipart-super-princess-peach-luigi-mario-yoshi-luigi-super-mario-bros-text.png" alt="">
+</div>
+
+<script>
+     let positionX = 0;
+     let positionY = 0;
+
+    $('body').keyup(function(e) {
+        console.log(e.key)
+        if (e.key == 'ArrowRight') {
+           positionX = positionX + 10;
+            $('.peach').css('margin-left', positionX)
+        } else if (e.key == 'ArrowLeft') {
+            positionX = positionX - 10;
+            $('.peach').css('margin-left',positionX)
+        }
+    })
+</script>

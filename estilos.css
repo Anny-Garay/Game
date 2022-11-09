@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://images6.alphacoders.com/860/thumb-1920-860645.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+.caja1, .caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 200px;
+}
+.caja2 {
+    background-color: green;
+}
+
+.peach img {
+    width: 100px;
+    height: 100px;
+    margin-top: 450px;
+}
